@@ -30,6 +30,7 @@ dependencies:
   path_provider: ^1.6.8
   flutter_tts: ^1.2.0
   animated_text_kit: ^2.0.1
+  carousel_pro: ^1.0.0
 
 dev_dependencies:
   flutter_test:

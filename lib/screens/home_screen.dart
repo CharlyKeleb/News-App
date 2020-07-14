@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/model/news.dart';
+import 'package:carousel_pro/carousel_pro.dart';
 import 'package:news_app/screens/news_description.dart';
 import 'package:progress_indicators/progress_indicators.dart';
 import 'package:intl/intl.dart';
@@ -38,7 +39,8 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Text('NewYork Times'),
         ),
       ),
-      body: SafeArea(
+      body:
+          SafeArea(
           child: Center(
         child: loading
             ? JumpingDotsProgressIndicator(
@@ -104,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   )
                 ],
               ),
-      )),
+      )), 
     );
   }
 }

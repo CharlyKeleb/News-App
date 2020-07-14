@@ -36,17 +36,17 @@ class _NewsDescriptionState extends State<NewsDescription> {
           children: <Widget>[
             Stack(
               children: <Widget>[
-                Container(
-                  height: MediaQuery.of(context).size.height / 2.6,
-                  width: MediaQuery.of(context).size.width,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(5),
-                      bottomRight: Radius.circular(5),
+                Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Container(
+                    height: MediaQuery.of(context).size.height / 2.6,
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      image: DecorationImage(
+                          image: NetworkImage(widget.journal.urlToImage),
+                          fit: BoxFit.cover),
                     ),
-                    image: DecorationImage(
-                        image: NetworkImage(widget.journal.urlToImage),
-                        fit: BoxFit.cover),
                   ),
                 ),
                 Positioned(
