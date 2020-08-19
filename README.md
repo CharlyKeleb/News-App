@@ -35,8 +35,8 @@ To toggle the theme, change the `theme`  in `main.dart`.
 `darkTheme` for dark and `lightTheme` for light.
 
 
-## 🤓 Author(s)
-**Charlie** [![Twitter Follow](https://img.shields.io/twitter/follow/.svg?style=social)](https://twitter.com/CharlyKeleb)
+
+**** [![Twitter Follow](https://img.shields.io/twitter/follow/.svg?style=social)](https://twitter.com/@CharlyKeleb)
 
 
 
