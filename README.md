@@ -36,7 +36,6 @@ To toggle the theme, change the `theme`  in `main.dart`.
 
 
 
-**** [![Twitter Follow](https://img.shields.io/twitter/follow/.svg?style=social)](https://twitter.com/@CharlyKeleb)
 
 
 
