@@ -6,11 +6,11 @@ import 'package:news_app/model/article.dart';
 class News {
   List<Articles> news = [];
 
-  String api_key = '421d8f6f0a9b49d9827ac12445e0a01f';
+  String apiKey = '421d8f6f0a9b49d9827ac12445e0a01f';
 
   Future<void> getNews() async {
     String url =
-        'https://newsapi.org/v2/everything?domains=wsj.com,nytimes.com&apiKey=${api_key}';
+        'https://newsapi.org/v2/everything?domains=wsj.com,nytimes.com&apiKey=$apiKey';
 
     var response = await http.get(url);
     var jsonData = jsonDecode(response.body);
